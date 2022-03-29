@@ -1,0 +1,79 @@
+html, body
+{
+    font-family: Verdana;
+    background: url("./images/bg.jpg");
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#content
+{
+    width: 85%;
+    height: 100%;
+    position: relative;
+    margin: 0 auto; 
+}
+#sum
+{
+    position: absolute;
+}
+#result
+{
+    height: 10%;
+    text-align: center;
+    color:firebrick;
+}
+
+#choices
+{
+    display: inline;
+    height: 20%;
+    margin-left:20%;
+}
+#choices img
+{
+    width: 20%;
+    height: 25%;
+    transition: transform 0.25s;
+}
+#choices img:hover
+{
+    transform: translateY(-5%);
+    cursor: pointer;
+}
+#enemyChoice
+{
+    padding-left:1%;
+    width:19.5%;
+}
+#enemyChoice img
+{
+    height: 100%;
+    width: 100%;
+}
+#reset
+{
+    margin-left: 42.5%;
+    width: 15%;
+    height: 10%;
+    border: none;
+    background-color:rgb(255, 235, 205, 0.5);
+    font-weight: bold;
+    font-size: large;
+}
+#reset:hover
+{
+    background-color:rgb(255, 235, 205, 0.75);
+    cursor: pointer;
+}
+.gameElement
+{
+    height: 20%;
+    width: 75%;
+    margin: 0 auto;
+    display: block;
+}
+
